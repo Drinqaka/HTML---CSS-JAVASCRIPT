@@ -40,4 +40,5 @@ text-decoration: underline;
     text-align: center;
     font-size: 25px;
     color:black ;
+    font-style: inherit;
 }

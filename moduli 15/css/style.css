@@ -1,0 +1,43 @@
+/* div#static{
+
+    position: static;
+    border: 3px solid red;
+    width: 250px;
+    height: 250px;
+    padding: 20px
+}
+
+div#relative{
+    position: static;
+    border: 3px solid blue;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+
+    left: 400px;
+    top:250px;
+} */
+
+ul {
+    list-style-type: none;
+    margin:0px;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:15px ;
+}
+
+li a:hover:not(.active){
+   background-color:white;  
+}
+ 

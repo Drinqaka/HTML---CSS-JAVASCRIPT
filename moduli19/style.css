@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    background-color: blue;
+}
+
+.container div{
+    background-color: white;
+    margin: 16px;
+    padding: 20px;
+    font-size: 35px;
+    color: black;
+}
+
+/* .container div:nth-child(1) {
+    order: 2;
+}
+
+.container div:nth-child(2) {
+    order: 3;
+}
+
+.container div:nth-child(3) {
+    order: 0;
+}
+
+.container div:nth-child(4) {
+    order: 1;
+} */
+
+/* .container2{
+    display: flex;
+    background-color: rgb(5,40,243);
+    flex-direction: row-reverse;
+}
+
+.container2 div{
+    background-color: white;
+    margin: 16px;
+    padding: 20px;
+    font-size: 35px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+ /* .container3{
+    display: flex;
+    background-color: rgb(5,40,243);
+    flex-direction: row;
+}
+
+.container3 div{
+    background-color: white;
+    margin: 16px;
+    padding: 20px;
+    font-size: 35px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+ .container3 div:nth-child(1) {
+    flex-grow: 4; 
+ } */
+
+ /* .container4{
+    display: flex;
+    background-color: rgb(5,40,243);
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container4 div{
+    background-color: white;
+    margin: 16px;
+    padding: 20px;
+    font-size: 35px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  */
+
+ .container5{
+    display: flex;
+    background-color: rgb(5,40,243);
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container5 div{
+    background-color: white;
+    margin: 16px;
+    padding: 20px;
+    font-size: 35px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ .container5 div:nth-child(2) {
+    /* align-self: flex-end; */
+    height: 20px;
+ } 
+
+  .container5 div:nth-child(1) {
+   
+    height: 50px;
+ }
+
+  .container5 div:nth-child(3) {
+  
+    height: 100px;
+ }
+
+  .container5 div:nth-child(4) {
+    
+    height: 130px;
+ }
+
+
+
+
+
+
+
+
+

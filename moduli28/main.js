@@ -22,16 +22,16 @@ alert(kerri.startEngine());
 var computer = new Object();
 
 computer.name="Lenovo";
-computer.CPU="Inter Core i/";
-computer.RAM = "1668";
-computer.GPU = "getare 4800";
+computer.cpu="Inter Core i/";
+computer.ram = "1668";
+computer.gpu = "getare 4800";
 
 function computerType(){
-    return this.name+this.CPU+this.RAM+this.GPU;
+    return this.name+this.cpu+this.ram+this.gpu;
 
 };
 
-console.log(computer.type())
+console.log(computer.type());
 
 
 

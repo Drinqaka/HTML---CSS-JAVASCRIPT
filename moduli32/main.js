@@ -30,9 +30,17 @@
 
 //  document.getElementById('result4').innerHTML = text.match(regex)
 
- var text="the numbers 10";
- var regex = /[0-10]/g;
+//  var text="the numbers 10";
+//  var regex = /[0-10]/g;
 
- document.getElementById("result6").innerHTML = text.match(regex)
+//  document.getElementById("result6").innerHTML = text.match(regex)
+
+// var text="My school is the best school";
+// var regex=/\s/g;
+// document.getElementById("result").innerHTML = text.match(regex);
+
+var text="hello helloo hellooo helloooo hellooooo";
+var regex=/o{3,5}/g;
+document.getElementById("result").innerHTML = text.match(regex);
 
 
